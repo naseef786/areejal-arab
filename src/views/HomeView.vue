@@ -5,7 +5,7 @@ import { useCartStore } from '../stores/cart';
 const cart = useCartStore();
 
 const perfumes = ref([
-  { id: 1, name: 'Muschio Noir', price: 450, note: 'Midnight Musk', img: 'https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800' },
+  { id: 1, name: 'Areejal Arab Noir', price: 450, note: 'Midnight Musk', img: 'https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800' },
   { id: 2, name: 'Sabbia Gold', price: 520, note: 'Desert Oud', img: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800' },
   { id: 3, name: 'Luna Blanca', price: 380, note: 'White Floral', img: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800' }
 ]);
@@ -18,7 +18,7 @@ const contactForm = ref({ name: '', email: '', message: '' });
     <section class="relative h-[80vh] flex items-center justify-center bg-black">
       <img src="https://images.unsplash.com/photo-1615484477778-ca3b77940c25?q=80&w=2000" class="absolute inset-0 w-full h-full object-cover opacity-50" />
       <div class="relative z-10 text-center">
-        <h1 class="text-white text-6xl font-light tracking-[0.3em] uppercase">Muschio</h1>
+        <h1 class="text-white text-6xl font-light tracking-[0.3em] uppercase">Areejal Arab</h1>
         <p class="text-white/70 tracking-widest mt-4 uppercase">The Art of Scent</p>
       </div>
     </section>

@@ -7,7 +7,7 @@ const cart = useCartStore();
 
 <template>
   <nav class="fixed bg-white top-0 w-full z-50 flex justify-between items-center px-10 py-6 text-white mix-blend-difference">
-    <RouterLink to="/" class="text-2xl uppercase tracking-[0.3em] text-black font-light">Muschio</RouterLink>
+    <RouterLink to="/" class="text-2xl uppercase tracking-[0.3em] text-black font-light">Areejal Arab</RouterLink>
     <div class="space-x-8 uppercase text-[10px] tracking-[0.2em] text-black font-semibold">
       <RouterLink to="/">Home</RouterLink>
       <a href="#contact">Contact</a>
